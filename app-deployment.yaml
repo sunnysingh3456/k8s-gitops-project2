@@ -4,7 +4,7 @@ metadata:
   name: my-gitops-app
   namespace: argocd
 spec:
-  replicas: 5
+  replicas: 8
   selector:
     matchLabels:
       app: my-web-app
